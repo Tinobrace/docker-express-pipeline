@@ -49,4 +49,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-first-project:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-express-pipeline:latest
