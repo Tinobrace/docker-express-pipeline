@@ -20,3 +20,6 @@ app.listen(port, () => {
 
 // allow testing frameworks to import the app if needed
 module.exports = app;
+
+// Added a log to indicate update via Render platform
+console.log("Updated via Render!"))
